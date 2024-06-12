@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:'font';
+		src: url(font/font.ttf);
+}
+h1 span{
+	font-family: 'font';
+	font-size: 50px;
+	padding: 50px;
+}
+h1 {
+	color:antiquewhite;
+	background-color: cadetblue;
+	padding: 50px;
+	margin: 100px;
+}
+h2, h3 {
+	background-color: antiquewhite;
+	padding: 20px;
+	margin: 150px;
+}
+p {
+	color: cadetblue;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width:600px;
+	background-color: antiquewhite;
+	padding: 60px;
+	margin: 70px;
+}
+.pozadina {
+	background-image: url("pozadina1.jpg");
+}
+.drugapozadina {
+		background-color:rgba(87,139,134,1.00);
+}
+.trecapozadina{
+	background-image: url("pozadina2.jpg");
+}
+img {
+	height: 200px;
+	padding: 20px;
+}
+a:link {
+	color:black;
+	background-color:beige;
+	padding:2px;
+	line-height: 45px;
+	border:1px rgba(103,41,60,1.00)
+}
+a:hover {
+	background-color:white;	
+}
+ul {	/*centriranje*/
+			padding:30px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			} 
+li {	display:inline; /*prikaz u jednom redu*/
+			background-color:antiquewhite;
+			padding:20px;
+			border: 2px solid Cadetblue;
+		}
+li:active {background-color:cadetblue;} /*kada kliknemo na li mijenja se boja*/
+		
+li a {	color:darkslateblue; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+li a:link {text-decoration:none;}
+li a:hover {text-decoration:underline;}
